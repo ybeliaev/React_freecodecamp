@@ -1,4 +1,4 @@
-Доступ к PROPS с помощью this.props
+/*Доступ к PROPS с помощью this.props
 
 Последние несколько проблем касались основных способов передачи PROPS дочерним компонентам. Но что, если дочерний компонент, которому вы передаете PROPS, является компонентом класса ES6, а не функциональным компонентом без состояния? Компонент класса ES6 использует немного другое соглашение для доступа к PROPS.
 
@@ -9,7 +9,7 @@
 *2The fourth child of ResetPasswordshould be the ReturnTempPasswordcomponent.
 *3The ReturnTempPasswordcomponent should have a prop called tempPassword.
 *4The tempPasswordprop of ReturnTempPasswordshould be equal to a string of at least 8characters.
-*5The ReturnTempPasswordcomponent should display the password you create as the tempPasswordprop within strongtags.
+*5The ReturnTempPasswordcomponent should display the password you create as the tempPasswordprop within strongtags.*/
 
 class ReturnTempPassword extends React.Component {
   constructor(props) {
@@ -40,7 +40,7 @@ class ResetPassword extends React.Component {
           <h3>We've generated a new temporary password for you.</h3>
           <h3>Please reset this password from your account settings ASAP.</h3>
           { /* change code below this line */ }
-***1 – 4*** <ReturnTempPassword tempPassword='12345678'/>
+//***1 – 4*** <ReturnTempPassword tempPassword='12345678'/>
 
           { /* change code above this line */ }
         </div>
@@ -49,7 +49,7 @@ class ResetPassword extends React.Component {
 };
 /*Обзор использования PROPS с функциональными компонентами без сохранения состояния*/
 
-вы передавали реквизиты функциональным компонентам без сохранения состояния. Эти компоненты действуют как чистые функции. Они принимают реквизиты в качестве входных данных и возвращают одно и то же представление каждый раз, когда им передаются одинаковые реквизиты.
+/*вы передавали реквизиты функциональным компонентам без сохранения состояния. Эти компоненты действуют как чистые функции. Они принимают реквизиты в качестве входных данных и возвращают одно и то же представление каждый раз, когда им передаются одинаковые реквизиты.
 Функциональный компонент без сохранения состояния stateless functional component  - это любая написанная вами функция, которая принимает PROPS и возвращает JSX. Компонент без сохранения состояния, с другой стороны, является классом, который расширяет React.Component, но не использует внутреннее состояние (рассматривается в следующей задаче). 
 Распространенным примером является попытка создавать функциональные компоненты без состояния, где это возможно. Это улучшает разработку и обслуживание вашего приложения, упрощая отслеживание того, как изменения состояния влияют на его поведение.
 
@@ -59,7 +59,7 @@ class ResetPassword extends React.Component {
 2.The Campercomponent should render.
 3.The Campercomponent should include default props which assign the string CamperBotto the key name.
 4.The Campercomponent should include prop types which require the name prop to be of type string.
-5.The Campercomponent should contain a p element with only the text from the name prop.
+5.The Campercomponent should contain a p element with only the text from the name prop.*/
 
 class CampSite extends React.Component {
   constructor(props) {
