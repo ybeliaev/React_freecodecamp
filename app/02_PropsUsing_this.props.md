@@ -5,13 +5,13 @@
 Каждый раз, когда вы ссылаетесь на компонент класса внутри себя, вы используете ключевое слово this. Чтобы получить доступ к реквизитам внутри компонента класса, вы должны предварять код, который вы используете для доступа к нему с этим. Например, если компонент класса ES6 имеет реквизит, называемый data, вы пишете {this.props.data} в JSX.
 # ЗАДАНИЕ
 Визуализируйте экземпляр компонента ReturnTempPassword в родительском компоненте ResetPassword. Здесь дайте ReturnTempPassword PROP tempPassword и присвойте ему значение строки длиной не менее 8 символов. Внутри дочернего элемента ReturnTempPassword перейдите к PROP tempPassword внутри strong tags, чтобы убедиться, что пользователь видит временный пароль.
--The ResetPasswordcomponent should return a single divelement.
--2The fourth child of ResetPasswordshould be the ReturnTempPasswordcomponent.
--3The ReturnTempPasswordcomponent should have a prop called tempPassword.
--4The tempPasswordprop of ReturnTempPasswordshould be equal to a string of at least 8characters.
--5The ReturnTempPasswordcomponent should display the password you create as the tempPasswordprop within strongtags.
+1.The ResetPasswordcomponent should return a single divelement.
+2.The fourth child of ResetPasswordshould be the ReturnTempPasswordcomponent.
+3.The ReturnTempPasswordcomponent should have a prop called tempPassword.
+4.The tempPasswordprop of ReturnTempPasswordshould be equal to a string of at least 8characters.
+5.The ReturnTempPasswordcomponent should display the password you create as the tempPasswordprop within strongtags.
 
-```
+```js
 class ReturnTempPassword extends React.Component {
   constructor(props) {
     super(props);
