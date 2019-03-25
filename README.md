@@ -4,5 +4,5 @@
 
 * [Доступ к props с помощью this.props, default props](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/02_PropsUsing_this.props.md)
 * [Create a Stateful Component](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/03_Stateful%20Component.md)
-
+* [Render State _another_Way](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/04_Render%20State%20_another_Way.md)
 
