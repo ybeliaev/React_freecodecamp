@@ -99,3 +99,83 @@ class MyComponent extends React.Component {
   }
 };
 ```
+# Используйте state, чтобы переключить элемент
+
+Вы можете использовать state в приложениях React более сложным образом, чем вы видели до сих пор. Одним из примеров является мониторинг состояния значения, а затем визуализация пользовательского интерфейса на основе этого значения. Есть несколько различных способов сделать это, и редактор кода показывает один метод.
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: false
+    };
+    // change code below this line
+
+    // change code above this line
+  }
+  // change code below this line
+
+  // change code above this line
+  render() {
+    if (this.state.visibility) {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+          <h1>Now you see me!</h1>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+        </div>
+      );
+    }
+  }
+};
+```
+MyComponent имеет свойство visibility, которое инициализируется как false. Метод render возвращает одно представление, если значение visibility равно true, и другое представление, если оно равно false.
+
+В настоящее время нет способа обновить свойство visibility в state компонента. Значение должно переключаться между истиной и ложью. На кнопке есть обработчик щелчка, который вызывает метод класса с именем toggleVisibility(). Определите этот метод, чтобы state visibility переключалось на противоположное значение при вызове метода. Если видимость имеет значение false, метод устанавливает его в значение true, и наоборот.
+
+Наконец, нажмите кнопку, чтобы увидеть условное отображение компонента на основе его state.
+Подсказка: не забудьте связать ключевое слово this с методом в конструкторе!
+## решение
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: false
+    };
+    // change code below this line
+    this.toggleVisibility = this.toggleVisibility.bind(this);
+    // change code above this line
+  }
+  // change code below this line
+  toggleVisibility() {
+    if (this.state.visibility == true) {
+    this.setState({ visibility: false});
+    } else {
+      this.setState({ visibility: true })
+    }
+  }
+  // change code above this line
+  render() {
+    if (this.state.visibility) {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+          <h1>Now you see me!</h1>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+        </div>
+      );
+    }
+  }
+};
+```
