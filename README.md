@@ -9,3 +9,7 @@
 * [Привязать this к методу класса](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/06_%D0%9F%D1%80%D0%B8%D0%B2%D1%8F%D0%B7%D0%B0%D1%82%D1%8C%20this%20%D0%BA%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%83%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B0.md)
 * [Создание counter и контролируемого Input](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/07_counter%20%26%20input.md)
 * [Создание контролируемой формы](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/08_controlled%20Form.md)
+* [Передача props дочерним компонентам](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/09_Pass%20State%20as%20Props.md)
+
+
+
