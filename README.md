@@ -10,6 +10,6 @@
 * [Создание counter и контролируемого Input](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/07_counter%20%26%20input.md)
 * [Создание контролируемой формы](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/08_controlled%20Form.md)
 * [Передача props дочерним компонентам](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/09_Pass%20State%20as%20Props.md)
-
+* [Хуки componentWillMount и componentDidMount](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/10_%D0%A5%D1%83%D0%BA%D0%B8%20componentWillMount%20%D0%B8%20componentDidMount.md)
 
 
