@@ -11,5 +11,11 @@
 * [Создание контролируемой формы](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/08_controlled%20Form.md)
 * [Передача props дочерним компонентам](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/09_Pass%20State%20as%20Props.md)
 * [Методы жизненного цикла componentWillMount и componentDidMount](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/10_%D0%A5%D1%83%D0%BA%D0%B8%20componentWillMount%20%D0%B8%20componentDidMount.md)
-
-
+* [Добавление прослушивателя событий](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/11_%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D1%83%D1%88%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9.md)
+* [Управление обновлениями с помощью методов жизненного цикла](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/12_%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%B2%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%86%D0%B8%D0%BA%D0%BB%D0%B0.md)
+* [Оптимизация повторного рендеринга с shouldComponentUpdate](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/13_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3%D0%B0%20%D1%81%20shouldComponentUpdate.md)
+* [Inline Styles](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/14_Inline%20Styles.md)
+* [Advance JS в методе React Render](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/15_Advance%20JS%20%D0%B2%20%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B5%20React%20Render.md)
+* [Render c If-Else и оператора &&](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/16_Render%20c%20If-Else%20%D0%B8%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0%20%26%26.md)
+* [Использование тернарного выражения](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/17_%20%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.md)
+* [Render условного выражения из Props](https://github.com/ybeliaev/React_freecodecamp/blob/master/app/18_Render%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%D0%B7%20Props.md)
