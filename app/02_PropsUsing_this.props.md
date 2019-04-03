@@ -66,6 +66,8 @@ class ResetPassword extends React.Component {
 * The Campercomponent should contain a p element with only the text from the name prop.
 
 ```
+import PropTypes from 'prop-types';
+
 class CampSite extends React.Component {
   constructor(props) {
     super(props);
